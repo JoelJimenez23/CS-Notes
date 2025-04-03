@@ -7,11 +7,7 @@ Status of the current activity of a process is represented by a
 * Contents of the processor's registers
 
 ### Memory Layout
-
-https://github.com/JoelJimenez23/CS-Notes/blob/main/os/Pasted%20image%2020250402002106.png?raw=true
-
-
-![Pasted image](./"Pasted image 20250402002106.png")
+![Image](https://github.com/user-attachments/assets/5621a2c3-e894-42d3-a516-d78eb86b1f96)
 
 * Stack: Temporary data storage
 * Heap: dynamically allocated memory
