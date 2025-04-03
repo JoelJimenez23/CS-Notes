@@ -52,7 +52,7 @@ The state of a process is defined in part by the current activity of that proces
 * Ready: The process is waiting to be assigned to a processor.
 * Terminated: The process has finished execution.
 
-![[Pasted image 20250402003914.png]]
+![Image](https://github.com/user-attachments/assets/7738efc1-43f7-40da-9766-daa48fc7567b)
 
 Only one process can be running on any processor core at any instant
 
@@ -60,7 +60,7 @@ Only one process can be running on any processor core at any instant
 ## Process Control Block (PCB)
 Also called task control block
 
-![[Pasted image 20250402004221.png]]
+![Image](https://github.com/user-attachments/assets/371e08ba-8f93-4e87-8bcc-4df3b7c6f85e)
 
 ### Not mentioned pieces
 #### CPU-scheduling information
@@ -106,7 +106,7 @@ request.
 A new process is initially put in the ready queue. It waits there until it is
 selected for execution, or dispatched.
 
-![[Pasted image 20250402190235.png]]
+![Image](https://github.com/user-attachments/assets/e1e609a1-1b7a-44b2-96f8-b801159785da)
 
 The CPU scheduler executes at least once every 100 milliseconds, although typically much more frequently.
 
@@ -153,7 +153,7 @@ Context-switch times are highly dependent on hardware support.
 The more complex the operating system, the greater the amount of work that must be done during a context switch.
 
 
-![[Pasted image 20250402191311.png]]
+![Image](https://github.com/user-attachments/assets/a16b4a1f-7d73-4f97-8e0a-e609819718a8)
 
 
 ## Operations on Processes
@@ -169,7 +169,7 @@ The process creation forms a tree of processes
 Most OS identify process with a unique process identifier  (PID) which is typically an integer number. Can be use as an index.
 
 
-![[Pasted image 20250402194407.png]]
+![Image](https://github.com/user-attachments/assets/9610ac81-ca15-42e8-9c08-d0fa8c5abda7)
 
 
 ##### Some Unix/Linux Commands
@@ -234,8 +234,7 @@ The parent waits for the child process to complete with the wait() system call. 
 ###### Child without exec() 
 Child has the possibility of not calling a exec() . In this case, both processes are concurrent running the same code instruction but with their own copy of any data.
 
-![[Pasted image 20250402210924.png]]
-### Process Termination
+![Image](https://github.com/user-attachments/assets/2c9f8609-a205-48d0-bb91-9664fac271fc)### Process Termination
 
 ###### When it terminates?
 
