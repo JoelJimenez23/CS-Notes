@@ -252,7 +252,9 @@ The parent waits for the child process to complete with the wait() system call. 
 ###### Child without exec() 
 Child has the possibility of not calling a exec() . In this case, both processes are concurrent running the same code instruction but with their own copy of any data.
 
-![Image](https://github.com/user-attachments/assets/2c9f8609-a205-48d0-bb91-9664fac271fc)### Process Termination
+![Image](https://github.com/user-attachments/assets/2c9f8609-a205-48d0-bb91-9664fac271fc)
+
+### Process Termination
 
 ###### When it terminates?
 
