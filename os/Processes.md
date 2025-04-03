@@ -8,7 +8,7 @@ Status of the current activity of a process is represented by a
 
 ### Memory Layout
 
-![Pasted image](20250402002106.png)
+![Pasted image]("./Pasted image 20250402002106.png")
 
 * Stack: Temporary data storage
 * Heap: dynamically allocated memory
