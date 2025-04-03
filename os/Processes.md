@@ -7,7 +7,8 @@ Status of the current activity of a process is represented by a
 * Contents of the processor's registers
 
 ### Memory Layout
-![Image](https://github.com/user-attachments/assets/5621a2c3-e894-42d3-a516-d78eb86b1f96)
+
+![Image](https://github.com/user-attachments/assets/981a28b7-309a-4952-aeef-57198d81337d)
 
 * Stack: Temporary data storage
 * Heap: dynamically allocated memory
@@ -23,6 +24,7 @@ The stack and heap sections grow toward one another, the operating system must e
 ### A program by itself is not a process
 
 #### Program (passive entity)
+
 A file containing a list of instructions stored on a disk (executable file)
 
 #### Process (active entity)
@@ -46,6 +48,7 @@ and stack sections vary.
 The state of a process is defined in part by the current activity of that process. 
 
 ### Possible States
+
 * New: The process is being created.
 * Running: Instructions are being executed.
 * Waiting: The process is waiting for some event to occur (such as an I/O completion or reception of a signal).
@@ -58,19 +61,27 @@ Only one process can be running on any processor core at any instant
 
 
 ## Process Control Block (PCB)
+
 Also called task control block
 
 ![Image](https://github.com/user-attachments/assets/371e08ba-8f93-4e87-8bcc-4df3b7c6f85e)
 
 ### Not mentioned pieces
+
 #### CPU-scheduling information
+
 This information includes a process priority, pointers to scheduling queues, and any other scheduling parameters.
+
 #### Memory-management information
+
 Includes the value of the base and limit registers and the page tables, or the
 segment tables, depending on the memory system used by the operating
 system.
+
 #### Accounting information
+
 Includes the amount of CPU and real time used, time limits, account numbers, job or process numbers, and so on.
+
 #### I/O status information
 Includes the list of I/O devices allocated to the process, a list of open files, and so on.
 
@@ -78,17 +89,24 @@ Includes the list of I/O devices allocated to the process, a list of open files,
 On systems that support threads, the PCB is expanded to include information for each thread. Other changes throughout the system are also needed to support threads. 
 
 ## Process Scheduling
+
 #### Objective
 * Have some process running at all times so as to maximize CPU utilization.
 * Switch a CPU core among processes so frequently that users can interact with each program while it is running.
 * Each CPU core can run a process at a time.
+
 #### Type of process
+
 ##### I/O-bound
+
 Spends more of its time doing I/O than it spends doing computations.
+
 ##### CPU-bound 
+
 Generates I/O requests infrequently, using more of its time doing computations.
 
 ### Scheduling Queues
+
 As processes enter the system, they are put into a ready queue, where they are
 ready and waiting to execute on a CPU’s core This queue is generally stored as
 a linked list; a ready-queue header contains pointers to the first PCB in the list,
