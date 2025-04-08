@@ -9,7 +9,8 @@ Status of the current activity of a process is represented by a
 ### Memory Layout
 
 
-![](../../../Pasted%20image%2020250408084211.png)
+![](Pasted%20image%2020250402002106.png)
+
 
 
 * Stack: Temporary data storage
@@ -55,7 +56,6 @@ The state of a process is defined in part by the current activity of that proces
 * Ready: The process is waiting to be assigned to a processor.
 * Terminated: The process has finished execution.
 
-![Image](https://github.com/user-attachments/assets/27708c53-faa7-4bfb-832b-046be61d7e51)
 
 
 
