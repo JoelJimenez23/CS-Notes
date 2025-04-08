@@ -9,10 +9,10 @@ Status of the current activity of a process is represented by a
 ### Memory Layout
 
 
-![Image](https://github.com/user-attachments/assets/27708c53-faa7-4bfb-832b-046be61d7e51)
+![](../../../Pasted%20image%2020250408084009.png)
 
 
-![[Pasted image 20250402002106.png]]
+
 
 * Stack: Temporary data storage
 * Heap: dynamically allocated memory
