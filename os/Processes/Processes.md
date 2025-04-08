@@ -8,6 +8,7 @@ Status of the current activity of a process is represented by a
 
 ### Memory Layout
 
+
 ![](../../../Pasted%20image%2020250408084211.png)
 
 
@@ -58,7 +59,7 @@ The state of a process is defined in part by the current activity of that proces
 
 
 
-![[Pasted image 20250402003914.png]]
+![Pasted image 20250402003914.png](Pasted%20image%2020250402003914.png)
 
 Only one process can be running on any processor core at any instant
 
@@ -66,7 +67,7 @@ Only one process can be running on any processor core at any instant
 ## Process Control Block (PCB)
 Also called task control block
 
-![[Pasted image 20250402004221.png]]
+![Pasted image 20250402004221.png](Pasted%20image%2020250402004221.png)
 
 ### Not mentioned pieces
 #### CPU-scheduling information
@@ -112,7 +113,7 @@ request.
 A new process is initially put in the ready queue. It waits there until it is
 selected for execution, or dispatched.
 
-![[Pasted image 20250402190235.png]]
+![Pasted image 20250402190235.png](Pasted%20image%2020250402190235.png)
 
 The CPU scheduler executes at least once every 100 milliseconds, although typically much more frequently.
 
@@ -159,7 +160,7 @@ Context-switch times are highly dependent on hardware support.
 The more complex the operating system, the greater the amount of work that must be done during a context switch.
 
 
-![[Pasted image 20250402191311.png]]
+![Pasted image 20250402191311.png](Pasted%20image%2020250402191311.png)
 
 
 ## Operations on Processes
@@ -175,7 +176,7 @@ The process creation forms a tree of processes
 Most OS identify process with a unique process identifier  (PID) which is typically an integer number. Can be use as an index.
 
 
-![[Pasted image 20250402194407.png]]
+![Pasted image 20250402194407.png](Pasted%20image%2020250402194407.png)
 
 
 ##### Some Unix/Linux Commands
@@ -240,7 +241,7 @@ The parent waits for the child process to complete with the wait() system call. 
 ###### Child without exec() 
 Child has the possibility of not calling a exec() . In this case, both processes are concurrent running the same code instruction but with their own copy of any data.
 
-![[Pasted image 20250402210924.png]]
+![Pasted image 20250402210924.png](Pasted%20image%2020250402210924.png)
 ### Process Termination
 
 ###### When it terminates?
