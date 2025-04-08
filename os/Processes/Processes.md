@@ -8,10 +8,7 @@ Status of the current activity of a process is represented by a
 
 ### Memory Layout
 
-
-![](../../../Pasted%20image%2020250408084009.png)
-
-
+![](../../../Pasted%20image%2020250408084211.png)
 
 
 * Stack: Temporary data storage
